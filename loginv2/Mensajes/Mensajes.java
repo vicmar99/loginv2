@@ -3,9 +3,9 @@ package loginv2.Mensajes;
 
 
 public class Mensajes {
-    public final String msjErrorUs="Ingrese un usuario válido";
-    public final String msjErrorPass="Contraseña incorrecta";
-    public final String msjUs="Ingrese su usuario";
-    public final String msjPass="Ingrese su contraseña";
-    public final String msjBienvenida="Bienvenido al sistema, usuario: ";
+    public static final String MENSAJE_ERROR_USUARIO="Ingrese un usuario válido";
+    public static final String MENSAJE_ERROR_PASSWORD="Contraseña incorrecta";
+    public  static final String MENSAJE_INGRESAR_USUARIO="Ingrese su usuario";
+    public static final String MENSAJE_INGRESAR_PASSWORD="Ingrese su contraseña";
+    public static final String MENSAJE_DE_BIENVENIDA="Bienvenido al sistema, usuario: ";
 }
