@@ -2,27 +2,27 @@
 package loginv2;
 
 public class User {
-    
-    private String user;
+
+    private String email;
     private String password;
- 
-    public User(){
-        user= "Admin";
-        password="123";
+
+    public User() {
+        email = "user@gmail.com";
+        password = "123";
     }
 
     /**
-     * @return the user
+     * @return the email
      */
-    public String getUser() {
-        return user;
+    public String getEmail() {
+        return email;
     }
 
     /**
-     * @param user the user to set
+     * @param email the email to set
      */
-    public void setUser(String user) {
-        this.user = user;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     /**
@@ -38,6 +38,7 @@ public class User {
     public void setPassword(String password) {
         this.password = password;
     }
-    
-    
+
 }
+
+
